@@ -9,14 +9,14 @@ const todoSchema = new mongoose.Schema({
     type : String,
     required : true
   },
-  date : {
-    type : Date,
-    default : new Date
-  },
-  isComplete : {
-    type : Boolean,
-    default : false
-  },
+  // date : {
+  //   type : Date,
+  //   default : new Date
+  // },
+  // isComplete : {
+  //   type : Boolean,
+  //   default : false
+  // },
 },{
   timestamps : true,
 })
